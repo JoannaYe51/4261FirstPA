@@ -79,6 +79,8 @@ struct ContentView: View {
                 
                 Spacer()
                 Spacer()
+                HStack {
+                    Spacer()
                     Text("Score: \(score)")
                         .foregroundColor(.white)
                         .font(.title.bold())
@@ -87,9 +89,11 @@ struct ContentView: View {
                         showingSaveConfirmation = true
                     }
                     .padding()
-                    .background(Color.blue)
+                    .background(Color.pink)
                     .foregroundColor(.white)
                     .clipShape(RoundedRectangle(cornerRadius: 15))
+                    Spacer()
+                }
                 
                 Spacer()
             }
