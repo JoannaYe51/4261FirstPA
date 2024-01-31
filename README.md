@@ -1,5 +1,5 @@
 # First Programming Assignment
-Small application with backend implement - Guess the Flag
+A small application with backend implementation - Guess the Flag
 ## Overview
 The "Guess The Flag" app is an interactive game designed to enhance users' knowledge of world flags. Built with SwiftUI, it offers a visually engaging interface where players guess the correct flag out of a selection presented on the screen.
 
