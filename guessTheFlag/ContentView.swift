@@ -159,7 +159,7 @@ struct ContentView: View {
 }
 
 func saveScore(score: Int) {
-    guard let apiUrl = URL(string: "http://124.221.179.133:5000/save_score") else { return }
+    guard let apiUrl = URL(string: "http://124.221.179.133:5000/save_punch") else { return }
     var request = URLRequest(url: apiUrl)
     request.httpMethod = "POST"
     request.addValue("application/json", forHTTPHeaderField: "Content-Type")

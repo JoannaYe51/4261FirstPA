@@ -14,6 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120AEB8C2B6A0BC7001D8E8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		57C00B162913107F00AC2AE2 /* guessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C00B192913107F00AC2AE2 /* guessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = guessTheFlagApp.swift; sourceTree = "<group>"; };
 		57C00B1B2913107F00AC2AE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		57C00B182913107F00AC2AE2 /* guessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
+				120AEB8C2B6A0BC7001D8E8D /* Info.plist */,
 				57C00B192913107F00AC2AE2 /* guessTheFlagApp.swift */,
 				57C00B1B2913107F00AC2AE2 /* ContentView.swift */,
 				57C00B1D2913108100AC2AE2 /* Assets.xcassets */,
@@ -272,6 +274,7 @@
 				DEVELOPMENT_TEAM = 2ULNSS3GDJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = guessTheFlag/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +304,7 @@
 				DEVELOPMENT_TEAM = 2ULNSS3GDJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = guessTheFlag/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
